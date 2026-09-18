@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="ExploreMore helps travelers discover beautiful destinations, useful travel features and memorable experiences.">
+
+    <meta name="theme-color" content="#171717">
+
+    <title>ExploreMore - Accessible Travel Guide</title>
+
+    <link rel="stylesheet" href="../week_4/style.css">
+
+</head>
+
+<body>
+
+    <!-- Skip link for keyboard and screen-reader users -->
+    <a class="skip-link" href="#main-content">
+        Skip to main content
+    </a>
+
+    <!-- Website Header -->
+    <header class="navbar">
+
+        <div class="logo" aria-label="ExploreMore home">
+            Explore<span>More</span>
+        </div>
+
+        <!-- Primary navigation -->
+        <nav aria-label="Primary navigation">
+            <a href="#home" aria-current="page">Home</a>
+            <a href="#destinations">Destinations</a>
+            <a href="#features">Features</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#destinations" class="nav-btn">
+            Explore Now
+        </a>
+
+    </header>
+
+
+    <!-- Main page content -->
+    <main id="main-content">
+
+        <!-- Hero Section -->
+        <section class="hero" id="home" aria-labelledby="hero-title">
+
+            <div class="hero-content">
+
+                <p class="tagline">
+                    DISCOVER • EXPLORE • EXPERIENCE
+                </p>
+
+                <h1 id="hero-title">
+                    Discover places<br>
+                    worth <span>remembering.</span>
+                </h1>
+
+                <p class="hero-text">
+                    Explore breathtaking destinations, unforgettable experiences
+                    and beautiful places around the world.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#destinations" class="primary-btn">
+                        Explore Destinations
+                    </a>
+
+                    <a href="#features" class="secondary-btn">
+                        Learn More
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Decorative visual created with CSS instead of an external image -->
+            <div class="hero-card" aria-hidden="true">
+
+                <div class="hero-image">
+
+                    <div class="image-overlay">
+
+                        <span>
+                            ✦ Featured Destination
+                        </span>
+
+                        <h2>
+                            Mountain Escape
+                        </h2>
+
+                        <p>
+                            Adventure awaits
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Destinations Section -->
+        <section class="destinations"
+            id="destinations"
+            aria-labelledby="destinations-title">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <p class="tagline">
+                        TOP PICKS
+                    </p>
+
+                    <h2 id="destinations-title">
+                        Popular Destinations
+                    </h2>
+
+                </div>
+
+                <p>
+                    Find your next adventure from our handpicked destinations.
+                </p>
+
+            </div>
+
+
+            <div class="destination-grid">
+
+                <!-- Paris -->
+                <article class="destination-card">
+
+                    <div class="destination-image paris"
+                        aria-hidden="true">
+
+                        <span>
+                            EUROPE
+                        </span>
+
+                    </div>
+
+                    <div class="card-content">
+
+                        <h3>
+                            Paris, France
+                        </h3>
+
+                        <p>
+                            The city of lights, art and unforgettable moments.
+                        </p>
+
+                        <a href="#contact"
+                            aria-label="Discover more about Paris, France">
+                            Discover →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Bali -->
+                <article class="destination-card">
+
+                    <div class="destination-image bali"
+                        aria-hidden="true">
+
+                        <span>
+                            ASIA
+                        </span>
+
+                    </div>
+
+                    <div class="card-content">
+
+                        <h3>
+                            Bali, Indonesia
+                        </h3>
+
+                        <p>
+                            Tropical beaches, peaceful landscapes and culture.
+                        </p>
+
+                        <a href="#contact"
+                            aria-label="Discover more about Bali, Indonesia">
+                            Discover →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Swiss Alps -->
+                <article class="destination-card">
+
+                    <div class="destination-image swiss"
+                        aria-hidden="true">
+
+                        <span>
+                            EUROPE
+                        </span>
+
+                    </div>
+
+                    <div class="card-content">
+
+                        <h3>
+                            Swiss Alps
+                        </h3>
+
+                        <p>
+                            Snow-covered mountains and breathtaking adventures.
+                        </p>
+
+                        <a href="#contact"
+                            aria-label="Discover more about Swiss Alps">
+                            Discover →
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Features Section -->
+        <section class="features"
+            id="features"
+            aria-labelledby="features-title">
+
+            <div class="section-heading center">
+
+                <p class="tagline">
+                    WHY EXPLOREMORE
+                </p>
+
+                <h2 id="features-title">
+                    Travel made simple
+                </h2>
+
+            </div>
+
+
+            <div class="feature-grid">
+
+                <article class="feature">
+
+                    <div class="feature-icon"
+                        aria-hidden="true">
+                        01
+                    </div>
+
+                    <h3>
+                        Curated Places
+                    </h3>
+
+                    <p>
+                        Discover carefully selected destinations worth visiting.
+                    </p>
+
+                </article>
+
+
+                <article class="feature">
+
+                    <div class="feature-icon"
+                        aria-hidden="true">
+                        02
+                    </div>
+
+                    <h3>
+                        Easy Planning
+                    </h3>
+
+                    <p>
+                        Plan your perfect getaway with simple and useful information.
+                    </p>
+
+                </article>
+
+
+                <article class="feature">
+
+                    <div class="feature-icon"
+                        aria-hidden="true">
+                        03
+                    </div>
+
+                    <h3>
+                        Real Experiences
+                    </h3>
+
+                    <p>
+                        Find experiences designed to make your journey memorable.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- Contact / CTA Section -->
+        <section class="cta"
+            id="contact"
+            aria-labelledby="cta-title">
+
+            <p class="tagline">
+                YOUR NEXT ADVENTURE
+            </p>
+
+            <h2 id="cta-title">
+                Where will you go next?
+            </h2>
+
+            <a href="#destinations"
+                class="primary-btn">
+                Start Exploring
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 ExploreMore. Built for Week 4 Performance and Accessibility.
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript loaded after page content for better initial rendering -->
+    <script src="../week_4/script.js"></script>
+
+</body>
+
+</html>
